@@ -8,12 +8,13 @@ from firebase_admin import db
 from datetime import datetime
 import time
 
-# Fetch the service account key JSON file contents
+# Get your credentials from the firebase website
 cred = credentials.Certificate("serviceAccountKey.json")
 
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://crimesnap-7aac6-default-rtdb.firebaseio.com"
+    # Get your database URL from the firebase website
+    "databaseURL": "YOUR_DATABASE_URL"
 })
 
 # As an admin, the app has access to read and write all data, regradless of Security Rules
