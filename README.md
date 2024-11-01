@@ -3,7 +3,8 @@
 
 ### Developed using Python, OpenCV, and Firebase
 
-```bash
+#### Install Dependencies (Assuming you have python3 already installed)
+```
 pip install firebase
 pip install opencv-python
 pip install face-recognition
