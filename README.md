@@ -8,7 +8,6 @@
 pip install firebase
 pip install opencv-python
 pip install face-recognition
-
 ```
 ### Setting up realtime database
 - #### Visit https://console.firebase.google.com/ 
@@ -24,15 +23,12 @@ pip install face-recognition
 - Create a folder called CrimeSnap:
 ```
 mkdir CrimeSnap
-
 ```
 - Navigate to the directory where you created the project folder:
 ```
 cd CrimeSnap
-
 ```
 - Clone the repository:
 ```
 git clone https://github.com/SD-Coder24/CrimeSnap.git
-
 ```
