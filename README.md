@@ -2,7 +2,7 @@
 ## Criminal Facial Recognition Software with realtime database 
 ## Developed using Python, OpenCV, and Firebase
 ---
-# If you have suggestions to improvements or issues, include those in the 'Issues' tab of this repo. Your feedback is appreciated :)
+#### If you have suggestions to improvements or issues, include those in the 'Issues' tab of this repo. Your feedback is appreciated :)
 ---
 ### Install Dependencies (Assuming you have python3 already installed)
 ```
