@@ -32,3 +32,42 @@ cd CrimeSnap
 ```
 git clone https://github.com/SD-Coder24/CrimeSnap.git
 ```
+
+### How to add new data
+- I am uploading data this way because I am not using large amounts of data, and also this way keeps it simple
+- If you are using a large amount of data, you can upload the data in a .json file and save it to your project directory
+- You can load the data from the .json file to the database with the following modification to the code
+  - Instead of
+```
+data = {
+    "Loki":
+        {
+            "Crime": "Loki's Crime",
+            "Date of Spotting": "00-00-00",
+            "Time of Spotting": "00:00:00"
+        },
+
+    "Green Goblin":
+        {
+            "Crime": "Green Goblin's Crime",
+            "Date of Spotting": "00-00-00",
+            "Time of Spotting": "00:00:00"
+        }
+}
+
+for key,val in data.items():
+    ref.child(key).set(val)
+```
+  - Do this:
+
+```
+import json
+
+# Load data from JSON file
+with open("data.json") as json_file:
+    data = json.load(json_file)
+
+# Writing data to Firebase
+for key, val in data.items():
+    ref.child(key).set(val)
+```
