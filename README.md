@@ -35,7 +35,7 @@ git clone https://github.com/SD-Coder24/CrimeSnap.git
 ```
 
 ### How to add new data
-- I am uploading data this way because I am not using large amounts of data, and also this way keeps it simple
+- The way I am currently uploading data (see main.py file) is because I am not using large amounts of data, and also this way keeps it simple
 - If you are using a large amount of data, you can upload the data in a .json file and save it to your project directory
 - You can load the data from the .json file to the database with the following modification to the code
   - Instead of
