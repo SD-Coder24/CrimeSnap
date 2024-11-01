@@ -8,5 +8,6 @@
        Once your project is created, under the 'Build' section, click on 'Realtime Database' 
        and create a database
        Copy the reference url, and set databaseURL to the reference url in main.py
+       MORE DETAILED STEPS TO BE ADDED 
 
 
